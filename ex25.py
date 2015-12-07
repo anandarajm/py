@@ -28,7 +28,7 @@ def first_last(statement):
     last = last_word(words)
 
 def sort_first_last(statemnet):
-    sorted = sort_sentance(statemnet)
+    sorted = sort_sentence(statemnet)
     first = first_word(sorted)
     last = last_word(sorted)
 
