@@ -1,16 +1,15 @@
 __author__ = 'anandraj'
 
 statement = """thanam tharum kalvi tharum oru naalum thalarvu ariya manam tharum \
-deiva vadivum tharum nenjil vanjam illa inam tharum  nallanavellam tharum \
-anbar enbavarke ganam tharum poonguzhalaal abhiraamiyin kadai kangale"""
+    deiva vadivum tharum nenjil vanjam illa inam tharum  nallanavellam tharum \
+    anbar enbavarke ganam tharum poonguzhalaal abhiraamiyin kadai kangale"""
 
 def break_words(statment):
-    words=statement.split()
+    words=statement.split(' ')
     return words
 
 def sort_words(statement):
     words=sorted(statement)
-    print words
     return words
 
 def first_word(statement):
@@ -19,7 +18,7 @@ def first_word(statement):
 def last_word(statement):
     print statement.pop(-1)
 
-def sort_sentance(statement):
+def sort_sentence(statement):
     words=break_words(statement)
     return sort_words(words)
 
@@ -33,5 +32,3 @@ def sort_first_last(statemnet):
     first = first_word(sorted)
     last = last_word(sorted)
 
-t = break_words(statement)
-print t
