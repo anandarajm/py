@@ -23,3 +23,4 @@ else:
     print "The given co-ordinates don't form a straight line"
 
 print "Junk"
+print "One more junk comment"
