@@ -21,6 +21,3 @@ if straight(x) or straight(y):
     print "The given co-ordinates are in a straight line"
 else:
     print "The given co-ordinates don't form a straight line"
-
-print "Junk"
-print "One more junk comment"
