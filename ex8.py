@@ -6,3 +6,6 @@ print formatter %(True , False , True)
 print formatter %(formatter , formatter , formatter)
 print formatter %('two words', 'three words', 'string of words using %r')
 
+
+# Playing with branches
+# Added this comment from branch - release_branch
