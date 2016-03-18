@@ -1,8 +1,7 @@
 import traceback
 import sys
 
-x=[None]*3
-y=[None]*3
+x=[None]
 while True:
     try:
         for i in range(0,3,1):
