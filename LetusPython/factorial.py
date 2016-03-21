@@ -1,4 +1,5 @@
 from sys import argv
+import math
 
 script, n = argv
 
@@ -12,3 +13,4 @@ while n > 1:
     n = n-1
 
 print fact
+print math.factorial(n)
