@@ -21,5 +21,9 @@ for fruit in prices:
     money = prices[fruit] * stock[fruit]
     total = total+money
 
-print total
+p = prices.values()
+s = stock.values()
+m= map(lambda x,y: x*y,p,s)
+t = reduce(lambda x,y:x+y,m)
+print total, t
 
