@@ -1,0 +1,22 @@
+Notes:
+
+In print statement, after the text string you need to add a comma and then any variable substitution
+
+but when printing a variable embedded within the text string no comma is needed and a % symbol before the variable substituion 
+
+To print multiple variables in a single print statement, add the variables within () in the end
+
+%r prints any data type variable for substitution (raw data variable) 
+
+round() helps you convert floating point number to integer
+
+When we import a python script to another script, functions imported could be referenced as
+import_script.function_name(argumnets)
+
+List of libraries to go through:
+==================================
+sys
+time
+shutil
+os
+datetime

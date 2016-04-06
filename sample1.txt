@@ -1,0 +1,18 @@
+this file contains contents for exercises related to files
+
+roger
+nadal
+novak
+hello
+thrusday
+vmware
+nfv
+nsx
+controller
+cricket
+tennis
+car
+tour
+india
+modi
+
