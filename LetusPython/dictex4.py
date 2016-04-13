@@ -60,3 +60,4 @@ class_avg = avg(list_avg)
 print class_avg
 
 print "Grade of the class - %c" %grade_sys(class_avg)
+

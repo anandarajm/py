@@ -35,3 +35,8 @@ for i in range (4,-1,-1):
 print final
 if final == init:
     print "Its a palindrome of 5 digit number"
+global rec_list
+rec_list = []
+
+x = reverse(init,5)
+print x
