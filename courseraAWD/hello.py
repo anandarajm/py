@@ -1,0 +1,1 @@
+print "Hello World, excited to learn the course 'Python to Access web data'"
