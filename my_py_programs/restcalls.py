@@ -10,7 +10,7 @@ def extract(string,key):
     scope = scopewithdupe = []
     string = string.split('>')
     for tag in string:
-        if tag.startswith(key):
+        if tag.startswtith(key):
             scopes = tag.split('<')
             x = str(scopes[0])
             scopewithdupe.append(x)

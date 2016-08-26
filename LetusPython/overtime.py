@@ -7,9 +7,11 @@ while True:
         print "Enter integers only"
         continue
 
+#adding comment line in conflict branch
 ot = total_time - 40
 
-if ot < 0:
+
+if ot < 0: #comment
     print "Employee hasnt worked over time"
 else:
     ot_pay = ot*12

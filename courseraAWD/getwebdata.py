@@ -5,6 +5,8 @@ import urllib2 as ul2
 # sock1.connect(('www.pythonlearn.com', 80))
 # sock1.send('GET http://www.pythonlearn.com/code/intro-short.txt HTTP/1.0\n\n')
 
+print "pythonlearn website is not allowing regular http calls"
+
 # sock1.connect(('www.py4inf.com', 80))
 # sock1.send('GET http://www.py4inf.com/code/romeo.txt HTTP/1.0\n\n')
 
