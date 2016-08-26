@@ -9,8 +9,8 @@ while True:
 
 ot = total_time - 40
 
-if ot < 0:
-    print "Employee hasnt worked over time"
+#if ot < 0:
+ #   print "Employee hasnt worked over time"
 else:
     ot_pay = ot*12
     print "Overtime pay %d" %ot_pay
