@@ -2,4 +2,12 @@ import re
 
 fh = open('regexpsum.txt','r')
 
-print sum(map(int,re.findall(r'[0-9]+',fh.read())))
+x =  sum(map(int,re.findall(r'[0-9]+',fh.read())))
+
+print x
+
+if x/2==0:
+	print "Even"
+else:
+	print "odd"
+
