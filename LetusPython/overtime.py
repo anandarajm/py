@@ -7,6 +7,7 @@ while True:
         print "Enter integers only"
         continue
 
+#adding comment line in conflict branch
 ot = total_time - 40
 
 if ot < 0:
