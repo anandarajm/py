@@ -15,6 +15,10 @@ udhay.laptop="HP"
 print udhay.laptop
 udhay.tv("Vizio")
 
+vinoth=house()
+vinoth.laptop='MAC'
+vinoth.tv('Vizio')
+
 # class aaa(aaa):                     #Make a class named aaa that is-a aaa.",
 
 
