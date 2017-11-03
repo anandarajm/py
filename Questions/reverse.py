@@ -11,13 +11,13 @@ def answer(s):
     revsent = str()
 
     for chars in s:
-        if chars == ' ':
-            revsent += ' '
+        if chars not in revlist:
+            revsent += chars
         else:
             pos = alphalist.index(chars)
             char = revlist[pos]
             revsent += char
-    print revsent
+    return revsent
 
 
 def main():
@@ -26,6 +26,7 @@ def main():
     except:
         pass
     outsent = answer(insent)
+    print outsent
 
 if __name__== "__main__":
     main()

@@ -1,0 +1,24 @@
+import argparse
+import itertools
+parser = argparse.ArgumentParser()
+parser.add_argument("numlist", help="Enter the number list separated by comma")
+args = parser.parse_args()
+#print(args.numlist)
+num = args.numlist.split(",")
+length = len(num)
+numofpermu=[]
+for i in range(1, length+1, 1):
+    templist = list(itertools.permutations(num, i))
+    for item in templist:
+        numofpermu.append(item)
+#numofpermu = list(itertools.permutations(num, length))
+newlist=[]
+#print(numofpermu)
+for item in numofpermu:
+    newlist.append(int(''.join(item)))
+#print(newlist)
+final_list=[]
+for number in newlist:
+    if(number%3==0):
+        final_list.append(number)
+print(max(final_list))
